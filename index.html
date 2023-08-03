@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital project</title>
+  <link rel="shortcut icon" href="img/logo.svg" type="svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/font.css">
+  <link rel="stylesheet" href="style/style.css">
+
+  <script src="app.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="header__logo">
+        <img src="img/logo.svg" alt="logo">
+      </div>
+      <nav class="header__nav nav">
+        <ul class="nav__list">
+          <li class="nav__item nav__item--active">
+            <a href="#" class="nav__link">ГЛАВНАЯ</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">ГАЛЕРЕЯ</a>
+          </li>
+          <li class="nav__item ">
+            <a href="#" class="nav__link">ПРОЕКТЫ</a>
+          </li>
+          <li class="nav__item ">
+            <a href="#" class="nav__link">СЕРТИФИКАТЫ</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">КОНТАКТЫ</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="main__slider-section slider">
+        <div class="slider__text">
+          <h2 class="slider__header title">PROJECT <span>HOME</span></h2>
+          <div class="slider__button-wrap">
+            <div class="slider__button-prev"> <img src="img/left-arrow.svg" alt="left-arrow"></div>
+            <div class="slider__button-next active"><img src="img/right-arrow.svg" alt="right-arrow"></div>
+          </div>
+          <div class="slider__pagination">
+            <span id="current-slide">1</span> / <span id="total-slides">2</span>
+          </div>
+        </div>
+        <div class="slider__img">
+            <div class="slider__item active">
+              <a href="#" class="slider__img-button button">ВЗГЛЯНУТЬ 
+                <svg width="19" height="9" viewBox="0 0 19 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" fill="#333333"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" fill="#333333"/>
+                </svg>
+              </a>
+            </div>
+            <div class="slider__item">
+              <a href="#" class="slider__img-button button">ВЗГЛЯНУТЬ 
+                <svg width="19" height="9" viewBox="0 0 19 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" fill="#333333"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" fill="#333333"/>
+                </svg>
+              </a>
+            </div>
+        </div>
+      </section>
+      <section class="main__about about">
+        <div class="about__foto">
+          <div class="about__foto-item animation item1"><img src="img/about-item1.png" alt="build"></div>
+          <div class="about__foto-item animation item2"><img src="img/about-item3.png" alt="build"></div>
+          <div class="about__foto-item animation item3"><img src="img/about-item2.png" alt="build"></div>
+        </div>
+        <div class="about__description">
+          <h2 class="about__title title">О компании</h2>
+          <p class="about__description-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          <a href="#" class="about__button button">ЧИТАТЬ
+            <svg width="19" height="9" viewBox="0 0 19 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" fill="#333333"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" fill="#333333"/>
+            </svg>
+          </a>
+        </div>
+      </section>
+      <section class="main__tasks tasks">
+        <h2 class="tasks__title title">Основные задачи</h2>
+        <div class="tasks__wrap">
+          <div class="tasks__item animation">
+            <div class="tasks__item-number"><img src="img/tasks1.png" alt="one"></div>
+            <div class="tasks__item-description">Создание комфортных условий и повышение качества обслуживания клиентов</div>
+          </div>
+          <div class="tasks__item animation">
+            <div class="tasks__item-number"><img src="img/tasks2.png" alt="two"></div>
+            <div class="tasks__item-description">Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</div>
+          </div>
+        </div>
+      </section>
+      <section class="main__projects projects">
+        <h2 class="projects__title title">Наши проекты</h2>
+        <div class="projects__wrap">
+          <div class="projects__item"><a href="#">ДОСУГОВЫЙ ЦЕНТР 
+            <span>ПОДРОБНЕЕ <svg width="19" height="9" viewBox="0 0 19 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" fill="#333333"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" fill="#333333"/>
+            </svg> </span>
+          </a></div>
+          <div class="projects__item"></div>
+          <div class="projects__item"></div>
+          <div class="projects__item"></div>
+          <div class="projects__item"></div>
+        </div>
+        <a href="#" class="projects__button button">ВСЕ ПРОЕКТЫ
+          <svg width="19" height="9" viewBox="0 0 19 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" fill="#333333"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" fill="#333333"/>
+          </svg>
+        </a>
+      </section>
+      <section class="main__contact-us contact-us">
+        <h2 class="contact-us__title title">Связаться с нами</h2>
+        <div class="contact-us__wrap">
+          <form action="process_form.php" class="contact-us__form" method="post">
+            <div class="cont">
+              <input type="text" name="name" id="name" class="form-control" required>
+                <div class="placeholder">Имя </div>
+            </div>
+            <div class="cont">
+              <input type="tel" name="tel" id="tel" class="form-control" required>
+                <div class="placeholder">Номер телефона <span class="red">*</span></div>
+            </div>
+            <div class="cont">
+              <input type="email" name="email" id="email" class="form-control" required>
+                <div class="placeholder">E-mail <span class="red">*</span></div>
+            </div>
+            <div class="cont">
+              <input type="text" name="service" id="service" class="form-control" required>
+                <div class="placeholder">Интересующий товар/услуга</div>
+            </div>
+            <div class="cont">
+              <input type="text" name="message" id="message" class="form-control textarea" required>
+                <div class="placeholder">Сообщение <span class="red">*</span></div>
+            </div>
+            <input type="checkbox" name="agree" id="agree" checked required>
+            <label for="agree"> Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</label>
+            <button type="submit" class="contact-us__button button">ОТПРАВИТЬ <svg width="19" height="9" viewBox="0 0 19 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M0.935211 4.5C0.935211 4.22386 1.15907 4 1.43521 4L17.4352 4C17.7114 4 17.9352 4.22386 17.9352 4.5C17.9352 4.77614 17.7114 5 17.4352 5L1.43521 5C1.15907 5 0.935211 4.77614 0.935211 4.5Z" fill="#333333"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5817 0.646447C13.7769 0.451184 14.0935 0.451184 14.2888 0.646447L18.1423 4.5L14.2888 8.35355C14.0935 8.54882 13.7769 8.54882 13.5817 8.35355C13.3864 8.15829 13.3864 7.84171 13.5817 7.64645L16.7281 4.5L13.5817 1.35355C13.3864 1.15829 13.3864 0.841709 13.5817 0.646447Z" fill="#333333"/>
+            </svg></button>
+          </form>
+          <div class="contact-us__img"></div>
+        </div>
+        
+      </section>
+    </main>
+  </div>
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="footer__logo">
+        <a href="#"><img src="img/footer-logo.png" alt="DIGITAL PROJECT"></a>
+      </div>
+      <div class="footer__info">
+        <h3 class="footer__info-title footer__title">Информация</h3>
+        <nav class="footer__nav">
+          <ul class="footer__navlist">
+            <li class="footer__nav-item"><a href="#" class="footer__navlink">Главная</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__navlink">Галерея</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__navlink">Проекты</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__navlink">Сертификаты</a></li>
+            <li class="footer__nav-item"><a href="#" class="footer__navlink">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__contacts contacts">
+        <h2 class="footer__title">Контакты</h2>
+        <ul class="contacts__list">
+          <li class="contacts__item">100000, Республика  Казахстан, г. Караганда, ул. Телевизионная 10</li>
+          <li class="contacts__item"><a href="tel:+38 (000) 000 00 00">+38 (000) 000 00 00</a></li>
+          <li class="contacts__item"><a href="mailto:mail@gmail.com">mail@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer__social social">
+        <h3 class="social__title footer__title">Социальные сети</h3>
+        <ul class="social__list">
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <svg width="10" height="19" viewBox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_0_102)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.13701 18.993H2.04601V9.49903H0.00100708V6.22603H2.04601V4.26203C2.04601 1.59303 3.20101 0.00402832 6.47901 0.00402832H9.20901V3.27703H7.50401C6.22601 3.27703 6.14201 3.73503 6.14201 4.58903L6.13701 6.22603H9.22901L8.86701 9.49903H6.13701V18.993Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_0_102">
+                <rect width="10" height="19" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_0_104)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.008 1.89598C20.235 2.21798 19.404 2.43298 18.533 2.53098C19.423 2.03098 20.106 1.23898 20.428 0.296977C19.594 0.758977 18.672 1.09498 17.69 1.27698C16.905 0.490977 15.784 0.000976562 14.545 0.000976562C12.165 0.000976562 10.234 1.80998 10.234 4.03998C10.234 4.35698 10.272 4.66598 10.346 4.96098C6.764 4.79198 3.588 3.18398 1.462 0.740977C1.091 1.33798 0.879 2.03098 0.879 2.77198C0.879 4.17198 1.64 5.40998 2.796 6.13398C2.09 6.11198 1.426 5.93098 0.844 5.62798C0.844 5.64598 0.844 5.66098 0.844 5.67998C0.844 7.63698 2.329 9.26898 4.301 9.63998C3.94 9.73198 3.558 9.77998 3.166 9.77998C2.888 9.77998 2.618 9.75598 2.355 9.70998C2.903 11.313 4.495 12.482 6.381 12.515C4.906 13.598 3.048 14.243 1.028 14.243C0.68 14.243 0.337 14.224 0 14.187C1.907 15.332 4.173 16.002 6.607 16.002C14.535 16.002 18.87 9.84598 18.87 4.50898C18.87 4.33298 18.865 4.15998 18.857 3.98598C19.699 3.41598 20.43 2.70498 21.008 1.89598Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_0_104">
+                <rect width="22" height="17" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_0_106)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.512 19.013H1.48799C0.671986 19.013 0.0109863 18.434 0.0109863 17.72V2.28199C0.0109863 1.56899 0.671986 0.98999 1.48799 0.98999H18.512C19.327 0.98999 19.988 1.56899 19.988 2.28199V17.72C19.988 18.434 19.327 19.013 18.512 19.013ZM3.47299 16.044H6.41499V7.90699H3.47299V16.044ZM4.96399 3.98499C3.95699 3.98499 3.29999 4.59199 3.29999 5.39099C3.29999 6.17099 3.93799 6.79699 4.92499 6.79699H4.94399C5.96999 6.79699 6.60799 6.17099 6.60799 5.39099C6.58999 4.59199 5.96999 3.98499 4.96399 3.98499ZM17.023 11.379C17.023 8.87899 15.571 7.71599 13.636 7.71599C12.074 7.71599 11.376 8.50499 10.985 9.05999V7.90699H8.04299C8.08199 8.67099 8.04299 16.044 8.04299 16.044H10.985V11.5C10.985 11.258 11.004 11.014 11.082 10.841C11.294 10.355 11.779 9.85199 12.591 9.85199C13.656 9.85199 14.081 10.598 14.081 11.692V16.044H17.023V11.379ZM10.965 9.08699C10.971 9.07799 10.979 9.06899 10.985 9.05999V9.08699H10.965Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_0_106">
+                <rect width="20" height="20" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_0_113)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.42401 0C2.48901 0 0.00100708 3.522 0.00100708 6.46C0.00100708 8.238 0.677007 9.82 2.12801 10.41C2.36601 10.507 2.57901 10.413 2.64801 10.151C2.69601 9.97 2.81001 9.512 2.86001 9.321C2.93001 9.062 2.90301 8.971 2.71101 8.745C2.29201 8.254 2.02501 7.618 2.02501 6.717C2.02501 4.104 3.98901 1.765 7.13901 1.765C9.92801 1.765 11.46 3.462 11.46 5.727C11.46 8.709 10.135 11.225 8.16701 11.225C7.08101 11.225 6.26801 10.33 6.52801 9.233C6.84101 7.924 7.44501 6.51 7.44501 5.564C7.44501 4.718 6.98901 4.012 6.04401 4.012C4.93401 4.012 4.04201 5.156 4.04201 6.688C4.04201 7.665 4.37301 8.325 4.37301 8.325C4.37301 8.325 3.23601 13.119 3.03701 13.959C2.64001 15.631 2.97801 17.681 3.00601 17.889C3.02301 18.011 3.18101 18.04 3.25301 17.948C3.35501 17.814 4.67801 16.189 5.12801 14.564C5.25501 14.104 5.85801 11.722 5.85801 11.722C6.21901 12.407 7.27401 13.011 8.39501 13.011C11.734 13.011 13.999 9.98 13.999 5.924C13.999 2.857 11.39 0 7.42401 0Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_0_113">
+                <rect width="14" height="19" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__copiwrite"> © 2019 Digital Project. Все права защищены.</div>
+  </footer>
+</body>
+</html>
