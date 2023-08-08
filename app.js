@@ -1,6 +1,14 @@
 
 document.addEventListener("DOMContentLoaded", function () {
 
+  const hamburger = document.querySelector('.header__hamburger');
+  const nav = document.querySelector('.header__nav.nav');
+
+  hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('header__hamburger-active');
+  nav.classList.toggle('nav-active');
+  });
+
   const sliderText = document.querySelector('.slider__text');
   const sliderImg = document.querySelector('.slider__img');
   const sliderItems = document.querySelectorAll('.slider__item');

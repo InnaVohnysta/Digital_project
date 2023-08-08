@@ -1,6 +1,6 @@
 <?php
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if (!empty($_POST) ) {
   
   $name = $_POST["name"];
   $tel = $_POST["tel"];
@@ -23,7 +23,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
   if (mail($to_email, $subject, $message_body, $headers)) {
-    
     echo "Спасибо, заявка отправлена";
   } else {
     echo "Ошибка при отправке! Попробуйте позже";
